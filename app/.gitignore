@@ -1,0 +1,218 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ChromaDB
+chroma_db/
+chroma/
+*.bin
+*.pickle
+*.sqlite3
+
+# Uploaded files
+uploads/
+documents/
+files/
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Configuration files with sensitive data
+config.ini
+config.json
+secrets.json
+credentials.json
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.py
+*_test.py
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Model files and caches
+models/
+*.model
+*.pkl
+*.pickle
+*.joblib
+.cache/
+cache/
+
+# Data files
+data/
+datasets/
+*.csv
+*.json
+*.xml
+*.xlsx
+*.xls
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Project specific exclusions
+# Exclude the virtual environment
+venv/
+
+# Exclude ChromaDB data
+chroma_db/
+
+# Exclude uploaded documents
+uploads/
+
+# Exclude any local configuration
+local_config.py
+local_settings.py
+
+# Exclude any API keys or secrets
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+keys/
+
+# Exclude any generated reports
+*.pdf
+reports/
+output/
+
+# Exclude any temporary analysis files
+analysis/
+temp/
+tmp/

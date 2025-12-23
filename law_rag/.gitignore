@@ -1,0 +1,160 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ChromaDB
+chroma/
+*.bin
+*.pickle
+*.sqlite3
+
+# Document files
+docs/
+documents/
+*.pdf
+*.doc
+*.docx
+*.txt
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Configuration files with sensitive data
+config.ini
+config.json
+secrets.json
+credentials.json
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.py
+*_test.py
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Model files and caches
+models/
+*.model
+*.pkl
+*.pickle
+*.joblib
+.cache/
+cache/
+
+# Data files
+data/
+datasets/
+*.csv
+*.json
+*.xml
+*.xlsx
+*.xls
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific exclusions
+# Exclude ChromaDB data
+chroma/
+
+# Exclude document files
+docs/
+
+# Exclude any local configuration
+local_config.py
+local_settings.py
+
+# Exclude any API keys or secrets
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+keys/
+
+# Exclude any generated reports
+*.pdf
+reports/
+output/
+
+# Exclude any temporary analysis files
+analysis/
+temp/
+tmp/
