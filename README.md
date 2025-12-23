@@ -1,4 +1,4 @@
-# Georgian Legal RAG Application
+# Georgian and English Legal RAG Application
 
 A sophisticated Retrieval-Augmented Generation (RAG) application designed specifically for Georgian legal documents. This application uses OpenAI's Knowledge Base (Vector Stores + File Search) to provide intelligent legal assistance with conversation history and context chaining.
 
